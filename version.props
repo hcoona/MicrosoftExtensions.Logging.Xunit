@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project>
+
+  <PropertyGroup>
+    <Authors>Shuai Zhang</Authors>
+    <Company>Shuai Zhang</Company>
+    <Copyright>Copyright 2018 Shuai Zhang under GPLv3</Copyright>
+    <Description>This C# project provide microsoft extensions style logger to help capture messages in xUnit. See project site for further details.</Description>
+    <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0-standalone.html</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/hcoona/MicrosoftExtensions.Logging.Xunit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/hcoona/MicrosoftExtensions.Logging.Xunit</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>xunit logging</PackageTags>
+    <PackageReleaseNotes>$(Description)</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nerdbank.GitVersioning" Version="2.1.23" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
