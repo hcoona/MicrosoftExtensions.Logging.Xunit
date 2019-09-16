@@ -2,6 +2,8 @@
 
 This C# project provide microsoft extensions style logger to help capture messages in xUnit.
 
+**Moved to https://github.com/hcoona/OneDotNet/tree/master/MicrosoftExtensions/Logging/Xunit**
+
 ## Getting Started ##
 
 ```csharp
